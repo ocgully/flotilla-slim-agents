@@ -1,0 +1,23 @@
+# flotilla-slim-agents — a Flotilla plugin.
+#
+# Six slim agents covering the AIDLC roles (architect, engineer,
+# planner, testing-qa, release-engineer, orchestrator). No Python
+# package — pure markdown contributions, installed via git-clone.
+
+name: slim-agents
+version: 0.1.0
+description: Bare-bones 6-role AIDLC agent bundle for Flotilla projects
+homepage: https://github.com/ocgully/flotilla-slim-agents
+license: Apache-2.0
+kind: agent-pack
+
+# No python_package — this is a git-clone-only plugin.
+
+contributes:
+  agents: plugin/agents/
+
+tags:
+  - agents
+  - claude-code
+  - slim
+  - aidlc
